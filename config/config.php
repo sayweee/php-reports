@@ -83,6 +83,13 @@ return array(
 					'pass'=>'admin',
 			),
 			
+			'mysql'=>array(
+					'host'=>'weee-prod.ch5xapcbn6ng.us-west-2.rds.amazonaws.com',
+					'user'=>'weee_comm_admin',
+					'pass'=>'admin',
+					'database'=>'weee_comm'
+			),
+				
 			'mongo'=>array(
 				'host'=>'localhost',
 				'port'=>'27017'
