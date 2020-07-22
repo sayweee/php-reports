@@ -63,33 +63,8 @@ return array(
 		//php's mail function
 		'method'=>'mail'
 		
-		//sendmail
-		/*
-		'method'=>'sendmail',
-		'command'=>'/usr/sbin/sendmail -bs' //optional
-		*/
-		
-		//smtp
-		/*
-		'method'=>'smtp',
-		'server'=>'smtp.yourdomain.com',
-		'port'=>'25', 						//optional (default 25)
-		'username'=>'youremailusername', 	//optional
-		'password'=>'yoursmtppassword', 	//optional
-		'encryption'=>'ssl' 				//optional (either 'ssl' or 'tls')
-		*/
 	),
 	
-	// Google Analytics API Integration
-	/*
-	'ga_api'=>array(
-		'applicationName'=>'PHP Reports',
-		'clientId'=>'abcdef123456',
-		'clientSecret'=>'1234abcd',
-		'redirectUri'=>'http://example.com/'
-	),
-	*/
-
 	//this defines the database environments
 	//the keys are the environment names (e.g. "dev", "production")
 	//the values are arrays that contain connection info
@@ -108,13 +83,6 @@ return array(
 					'pass'=>'admin',
 			),
 			
-			'mysql'=>array(
-				'host'=>'weee-prod.ch5xapcbn6ng.us-west-2.rds.amazonaws.com',
-				'user'=>'weee_comm_admin',
-				'pass'=>'admin',
-				'database'=>'weee_comm'
-			),
-
 			'mongo'=>array(
 				'host'=>'localhost',
 				'port'=>'27017'
